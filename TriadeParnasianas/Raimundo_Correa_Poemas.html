@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!--Titulo para a pagina onde vai somente conter os poemas-->
+    <title>Poemas Raimundo Corrêa</title>
+
+    <!--Icone que aparece ao lado do <title> da pagina-->
+    <!--Dentro do href="" deve se adicionar o endereço da imagem-->
+    <!--no tipo da imagem(type="image/") deve se adicionar o formato da imagem. Ex: image/png ou image/jpg-->
+    <link rel="shortcut icon" href="Imagens/Raimundo_Correa/Raimundo_Correa_Icon.png" type="image/" />
+
+    <!--EStilo Padronizado-->
+    <link rel="stylesheet" href="Estilos/Estilo_Padrao.css" />
+    <!--Estilo Unico-->
+    <link rel="stylesheet" href="Estilos/Estilo_Raimundo_Correa.css" />
+    <!--Estilo Barra de Pesquisa-->
+    <link rel="stylesheet" href="Estilos/Estilo_Barra_Pesquisa.css" />
+    <!--Estilo Poemas Ocultos-->
+    <link rel="stylesheet" href="Estilos/Estilo_Poema_Oculto.css" />
+
+    <!--Meta Dados-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Inicio do Site" />
+  </head>
+  <body>
+    <!--Parte superior do site, onde vai ter a logo com o nome do site, e tambem onde vai haver os links para outras paginas do site-->
+    <nav class="Menu">
+      <!--Imagem e o Texto(Olavo Bilac)-->
+      <div class="Logo_do_Site">
+        <img src="Imagens/Raimundo_Correa/Logo_Site.png"/>
+      </div>
+
+      <div class="Pesquisa_Poemas_Site">
+        <input type="text" id="Input_Pesquisa_Poemas" placeholder="Pesquisar poemas" />
+        <ul id="Resultados_Pesquisa_Site"></ul>
+      </div>
+
+      <!--A parte de login do site-->
+      <div class="Login">
+        <div class="Campo_Usuario">
+          <label for="Nome_Usuario_Entrar">Usuario:</label>
+          <input type="Text" id="Nome_Usuario_Entrar" />
+        </div>
+        <div class="Campo_Senha">
+          <label for="Senha_Usuario_Entrar">Senha:</label>
+          <input type="password" id="Senha_Usuario_Entrar" />
+        </div>
+        <div class="Enviar_User">
+          <button>Enviar Usuario</button>
+        </div>
+      </div>
+
+      <!--O comando que arruma o layout-->
+      <p class="Arrumar_Borda"></p>
+
+      <!--Local com os links para as outras paginas-->
+      <div class="Abas_Site">
+        <a href="Alberto_Oliveira_Poemas.html">Alberto Oliveira</a>
+        <span>|</span>
+        <div class="Nome_Poeta_Pagina"><h1>Raimundo Corrêa</h1></div>
+        <a href="Home.html">Home</a>
+        <span>|</span>
+        <a href="Olavo_Bilac_Poemas.html">Olavo Bilac</a>
+      </div>
+    </nav>
+
+    <div class="Poemas">
+      <!--Poemas Funcional-->
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema1" onclick="Inverter_Visao_Poema_Oculto1()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema1.png" /><br />
+          <p>A Ave-maria</p>
+        </button>
+        <div class="Poemas_Oculto1">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema1.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema1.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema1()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema2" onclick="Inverter_Visao_Poema_Oculto2()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema2.png" /><br />
+          <p>A Cavalgada</p>
+        </button>
+        <div class="Poemas_Oculto2">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema2.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema2.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema2()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema3" onclick="Inverter_Visao_Poema_Oculto3()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema3.png" /><br />
+          <p>A Chegada</p>
+        </button>
+        <div class="Poemas_Oculto3">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema3.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema3.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema3()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema4" onclick="Inverter_Visao_Poema_Oculto4()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema4.png" /><br />
+          <p>A Uma Cantora</p>
+        </button>
+        <div class="Poemas_Oculto4">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema4.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema4.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema4()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema5" onclick="Inverter_Visao_Poema_Oculto5()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema5.png" /><br />
+          <p>Amor E Vida</p>
+        </button>
+        <div class="Poemas_Oculto5">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema5.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema5.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema5()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema6" onclick="Inverter_Visao_Poema_Oculto6()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema6.png" /><br />
+          <p>Anima Chloridis</p>
+        </button>
+        <div class="Poemas_Oculto6">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema6.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema6.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema6()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema7" onclick="Inverter_Visao_Poema_Oculto7()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema7.png" /><br />
+          <p>Anoitecer</p>
+        </button>
+        <div class="Poemas_Oculto7">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema7.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema7.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema7()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema8" onclick="Inverter_Visao_Poema_Oculto8()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema8.png" /><br />
+          <p>Aria Nocturna</p>
+        </button>
+        <div class="Poemas_Oculto8">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema8.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema8.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema8()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema9" onclick="Inverter_Visao_Poema_Oculto9()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema9.png" /><br />
+          <p>As Pombas</p>
+        </button>
+        <div class="Poemas_Oculto9">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema9.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema9.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema9()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema10" onclick="Inverter_Visao_Poema_Oculto10()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema10.png" /><br />
+          <p>Banzo</p>
+        </button>
+        <div class="Poemas_Oculto10">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema10.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema10.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema10()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema11" onclick="Inverter_Visao_Poema_Oculto11()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema11.png" /><br />
+          <p>Beijos Do Céu</p>
+        </button>
+        <div class="Poemas_Oculto11">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema11.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema11.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema11()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema12" onclick="Inverter_Visao_Poema_Oculto12()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema12.png" /><br />
+          <p>Chuva E Sol</p>
+        </button>
+        <div class="Poemas_Oculto12">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema12.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema12.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema12()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema13" onclick="Inverter_Visao_Poema_Oculto13()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema13.png" /><br />
+          <p>Conchita</p>
+        </button>
+        <div class="Poemas_Oculto13">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema13.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema13.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema13()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema14" onclick="Inverter_Visao_Poema_Oculto14()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema14.png" /><br />
+          <p>Conselhos</p>
+        </button>
+        <div class="Poemas_Oculto14">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema14.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema14.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema14()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema15" onclick="Inverter_Visao_Poema_Oculto15()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema15.png" /><br />
+          <p>Continoa...</p>
+        </button>
+        <div class="Poemas_Oculto15">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema15.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema15.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema15()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema16" onclick="Inverter_Visao_Poema_Oculto16()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema16.png" /><br />
+          <p>Desdéns</p>
+        </button>
+        <div class="Poemas_Oculto16">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema16.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema16.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema16()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema17" onclick="Inverter_Visao_Poema_Oculto17()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema17.png" /><br />
+          <p>Despedidas</p>
+        </button>
+        <div class="Poemas_Oculto17">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema17.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema17.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema17()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema18" onclick="Inverter_Visao_Poema_Oculto18()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema18.png" /><br />
+          <p>Epístola Ao Bardo Muniz</p>
+        </button>
+        <div class="Poemas_Oculto18">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema18.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema18.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema18()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema19" onclick="Inverter_Visao_Poema_Oculto19()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema19.png" /><br />
+          <p>Eviterno Amor</p>
+        </button>
+        <div class="Poemas_Oculto19">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema19.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema19.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema19()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema20" onclick="Inverter_Visao_Poema_Oculto20()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema20.png" /><br />
+          <p>Fetichismo</p>
+        </button>
+        <div class="Poemas_Oculto20">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema20.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema20.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema20()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema21" onclick="Inverter_Visao_Poema_Oculto21()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema21.png" /><br />
+          <p>Flor Azul</p>
+        </button>
+        <div class="Poemas_Oculto21">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema21.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema21.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema21()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema22" onclick="Inverter_Visao_Poema_Oculto22()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema22.png" /><br />
+          <p>Jessica</p>
+        </button>
+        <div class="Poemas_Oculto22">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema22.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema22.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema22()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema23" onclick="Inverter_Visao_Poema_Oculto23()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema23.png" /><br />
+          <p>Julieta</p>
+        </button>
+        <div class="Poemas_Oculto23">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema23.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema23.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema23()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema24" onclick="Inverter_Visao_Poema_Oculto24()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema24.png" /><br />
+          <p>Lembrança</p>
+        </button>
+        <div class="Poemas_Oculto24">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema24.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema24.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema24()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema25" onclick="Inverter_Visao_Poema_Oculto25()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema25.png" /><br />
+          <p>Luiz Gama</p>
+        </button>
+        <div class="Poemas_Oculto25">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema25.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema25.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema25()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema26" onclick="Inverter_Visao_Poema_Oculto26()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema26.png" /><br />
+          <p>Mal Secreto</p>
+        </button>
+        <div class="Poemas_Oculto26">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema26.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema26.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema26()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema27" onclick="Inverter_Visao_Poema_Oculto27()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema27.png" /><br />
+          <p>Marília</p>
+        </button>
+        <div class="Poemas_Oculto27">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema27.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema27.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema27()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema28" onclick="Inverter_Visao_Poema_Oculto28()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema28.png" /><br />
+          <p>Na Penumbra</p>
+        </button>
+        <div class="Poemas_Oculto28">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema28.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema28.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema28()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema29" onclick="Inverter_Visao_Poema_Oculto29()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema29.png" /><br />
+          <p>Noites De Inverno</p>
+        </button>
+        <div class="Poemas_Oculto29">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema29.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema29.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema29()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema30" onclick="Inverter_Visao_Poema_Oculto30()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema30.png" /><br />
+          <p>Nua E Crua</p>
+        </button>
+        <div class="Poemas_Oculto30">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema30.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema30.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema30()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema31" onclick="Inverter_Visao_Poema_Oculto31()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema31.png" /><br />
+          <p>Nuvem Branca</p>
+        </button>
+        <div class="Poemas_Oculto31">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema31.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema31.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema31()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema32" onclick="Inverter_Visao_Poema_Oculto32()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema32.png" /><br />
+          <p>O Juramento</p>
+        </button>
+        <div class="Poemas_Oculto32">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema32.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema32.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema32()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema33" onclick="Inverter_Visao_Poema_Oculto33()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema33.png" /><br />
+          <p>O Misantropo</p>
+        </button>
+        <div class="Poemas_Oculto33">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema33.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema33.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema33()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema34" onclick="Inverter_Visao_Poema_Oculto34()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema34.png" /><br />
+          <p>O Vinho De Hebe</p>
+        </button>
+        <div class="Poemas_Oculto34">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema34.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema34.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema34()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema35" onclick="Inverter_Visao_Poema_Oculto35()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema35.png" /><br />
+          <p>Ofélia</p>
+        </button>
+        <div class="Poemas_Oculto35">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema35.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema35.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema35()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema36" onclick="Inverter_Visao_Poema_Oculto36()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema36.png" /><br />
+          <p>Ondas</p>
+        </button>
+        <div class="Poemas_Oculto36">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema36.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema36.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema36()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema37" onclick="Inverter_Visao_Poema_Oculto37()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema37.png" /><br />
+          <p>Passeio Matinal</p>
+        </button>
+        <div class="Poemas_Oculto37">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema37.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema37.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema37()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema38" onclick="Inverter_Visao_Poema_Oculto38()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema38.png" /><br />
+          <p>Plena Nudez</p>
+        </button>
+        <div class="Poemas_Oculto38">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema38.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema38.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema38()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema39" onclick="Inverter_Visao_Poema_Oculto39()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema39.png" /><br />
+          <p>Plenilúnio</p>
+        </button>
+        <div class="Poemas_Oculto39">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema39.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema39.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema39()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema40" onclick="Inverter_Visao_Poema_Oculto40()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema40.png" /><br />
+          <p>Poema Da Noite</p>
+        </button>
+        <div class="Poemas_Oculto40">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema40.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema40.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema40()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema41" onclick="Inverter_Visao_Poema_Oculto41()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema41.png" /><br />
+          <p>Primaveril</p>
+        </button>
+        <div class="Poemas_Oculto41">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema41.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema41.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema41()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema42" onclick="Inverter_Visao_Poema_Oculto42()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema42.png" /><br />
+          <p>Primeiras Vigílias</p>
+        </button>
+        <div class="Poemas_Oculto42">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema42.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema42.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema42()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema43" onclick="Inverter_Visao_Poema_Oculto43()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema43.png" /><br />
+          <p>Renascimento</p>
+        </button>
+        <div class="Poemas_Oculto43">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema43.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema43.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema43()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema44" onclick="Inverter_Visao_Poema_Oculto44()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema44.png" /><br />
+          <p>Rima</p>
+        </button>
+        <div class="Poemas_Oculto44">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema44.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema44.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema44()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema45" onclick="Inverter_Visao_Poema_Oculto45()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema45.png" /><br />
+          <p>Saudade</p>
+        </button>
+        <div class="Poemas_Oculto45">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema45.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema45.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema45()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema46" onclick="Inverter_Visao_Poema_Oculto46()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema46.png" /><br />
+          <p>Ser Moça E Bela Ser</p>
+        </button>
+        <div class="Poemas_Oculto46">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema46.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema46.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema46()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema47" onclick="Inverter_Visao_Poema_Oculto47()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema47.png" /><br />
+          <p>Sósinha</p>
+        </button>
+        <div class="Poemas_Oculto47">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema47.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema47.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema47()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema48" onclick="Inverter_Visao_Poema_Oculto48()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema48.png" /><br />
+          <p>Tristeza De Momo</p>
+        </button>
+        <div class="Poemas_Oculto48">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema48.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema48.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema48()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema49" onclick="Inverter_Visao_Poema_Oculto49()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema49.png" /><br />
+          <p>Último Porto</p>
+        </button>
+        <div class="Poemas_Oculto49">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema49.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema49.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema49()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema50" onclick="Inverter_Visao_Poema_Oculto50()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema50.png" /><br />
+          <p>Soneto Lope De Vega</p>
+        </button>
+        <div class="Poemas_Oculto50">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema50.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema50.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema50()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema51" onclick="Inverter_Visao_Poema_Oculto51()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema51.png" /><br />
+          <p>Versos A Um Artista</p>
+        </button>
+        <div class="Poemas_Oculto51">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema51.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema51.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema51()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema52" onclick="Inverter_Visao_Poema_Oculto52()">
+          <img src="Imagens/Raimundo_Correa/Capas_Poema/Poema52.png" /><br />
+          <p>Vésper</p>
+        </button>
+        <div class="Poemas_Oculto52">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Raimundo_Correa/Poema52.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Raimundo_Correa/Poema52.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema52()">Ouvir Poema</button>
+        </div>
+      </div>
+      
+      
+
+    <!--Script Padrão-->
+    <script src="Programas/Programa_Padrao.js"></script>
+    <!--Script do Raimundo Correia-->
+    <script src="Programas/Programa_Raimundo_Correa.js"></script>
+    <!--Script Barra de Pesquisa-->
+    <script src="Programas/Programa_Barra_Pesquisa.js"></script>
+    <p class="Aumento_Limite_Pagina"></p>
+  </body>
+</html>

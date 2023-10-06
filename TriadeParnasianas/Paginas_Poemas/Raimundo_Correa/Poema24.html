@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!--Titulo para a pagina onde vai somente conter os poemas-->
+    <title>Lembrança</title>
+
+    <!--Icone que aparece ao lado do <title> da pagina-->
+    <!--Dentro do href="" deve se adicionar o endereço da imagem-->
+    <!--no tipo da imagem(type="image/") deve se adicionar o formato da imagem. Ex: image/png ou image/jpg-->
+    <link
+      rel="shortcut icon"
+      href="../../Imagens/Raimundo_Correa/Capas_Poema/Poema24.png"
+      type="image/png"
+    />
+
+    <!--Endereço do CSS-->
+    <!--EStilo Padronizado-->
+    <link rel="stylesheet" href="../../Estilos/Estilo_Padrao.css" />
+    <!--Estilo Unico-->
+    <link rel="stylesheet" href="../../Estilos/Estilo_Raimundo_Correa.css" />
+    <!--Estilo Barra de Pesquisa-->
+    <link rel="stylesheet" href="../../Estilos/Estilo_Poema_Individual.css" />
+
+    <!--Meta Dados-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Inicio do Site" />
+  </head>
+  <body>
+    <!--Parte superior do site, onde vai ter a logo com o nome do site, e tambem onde vai haver os links para outras paginas do site-->
+    <nav class="Menu">
+      <!--Imagem e o Texto(Olavo Bilac)-->
+      <div class="Logo_do_Site">
+        <img src="../../Imagens/Raimundo_Correa/Logo_Site.png" />
+      </div>
+      <!--A parte de login do site-->
+      <div class="Login">
+        <div class="Campo_Usuario">
+          <label for="Nome_Usuario_Entrar">Usuario:</label>
+          <input type="Text" id="Nome_Usuario_Entrar" />
+        </div>
+        <div class="Campo_Senha">
+          <label for="Senha_Usuario_Entrar">Senha:</label>
+          <input type="password" id="Senha_Usuario_Entrar" />
+        </div>
+        <div class="Enviar_User">
+          <button>Enviar Usuario</button>
+        </div>
+      </div>
+
+      <!--O comando que arruma o layout-->
+      <p class="Arrumar_Borda"></p>
+
+      <!--Local com os links para as outras paginas-->
+      <div class="Abas_Site">
+        <a href="../../Alberto_Oliveira_Poemas.html">Alberto Oliveira</a>
+        <span>|</span>
+        <div class="Nome_Poeta_Pagina">
+          <h1><a href="../../Raimundo_Correa_Poemas.html">Raimundo Corrêa</a></h1>
+        </div>
+        <a href="../../Home.html">Home</a>
+        <span>|</span>
+        <a href="../../Olavo_Bilac_Poemas.html">Olavo Bilac</a>
+      </div>
+    </nav>
+
+    <h1 style="text-align: center; margin-bottom: 1px">Lembrança</h1>
+    <div class="Poema_Atual">
+      <button class="Botao_Trocar_Poema_Topo Botao_Anterior Topo_Botao_Esquerdo">
+        <a href="Poema23.html">Anterior</a>
+      </button>
+      <button class="Botao_Trocar_Poema_Baixo Botao_Anterior">
+        <a href="Poema23.html">Anterior</a>
+      </button>
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vSaHIpeeUElAQMu1oPEm8KbSS6hS02BeDYdOaLtGCpqnAZ-T2uFxNUqUu3UXXgy1dXgXb7VqxEuQWsy/pub?embedded=true"
+      ></iframe>
+      <button class="Botao_Trocar_Poema_Baixo Botao_Proximo">
+        <a href="Poema25.html">Proximo</a>
+      </button>
+      <button class="Botao_Trocar_Poema_Topo Botao_Proximo Topo_Botao_Direito">
+        <a href="Poema25.html">Proximo</a>
+      </button>
+    </div>
+
+    <!--Script Padrão-->
+    <script src="Programas/Programa_Padrao.js"></script>
+    <p class="Aumento_Limite_Pagina"></p>
+  </body>
+</html>

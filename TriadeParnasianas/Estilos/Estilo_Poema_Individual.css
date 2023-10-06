@@ -1,0 +1,42 @@
+.Poema_Atual {
+  display: flex;
+  justify-content: center;
+}
+.Poema_Atual iframe {
+  width: 800px;
+  height: 1000px;
+  border: 1px solid black;
+  background-color: white;
+}
+.Botao_Trocar_Poema_Topo {
+  font-size: 18px;
+  display: flex;
+}
+.Botao_Trocar_Poema_Baixo {
+  font-size: 18px;
+  display: flex;
+  margin-top: 975px;
+  height: 200px;
+  position: relative;
+}
+.Botao_Proximo {
+  float: right;
+  height: 100%;
+  margin-left: 10px;
+}
+.Botao_Anterior {
+  float: left;
+  height: 100%;
+  margin-right: 10px;
+}
+.Topo_Botao_Esquerdo {
+  position: relative;
+  left: 90px;
+}
+.Topo_Botao_Direito {
+  position: relative;
+  right: 90px;
+}
+.doc-content {
+  text-align: center;
+}

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!--Titulo para a pagina onde vai somente conter os poemas-->
+    <title>Poemas Alberto Oliveira</title>
+
+    <!--Icone que aparece ao lado do <title> da pagina-->
+    <!--Dentro do href="" deve se adicionar o endereço da imagem-->
+    <!--no tipo da imagem(type="image/") deve se adicionar o formato da imagem. Ex: image/png ou image/jpg-->
+    <link rel="shortcut icon" href="Imagens/Alberto_Oliveira/Alberto_Oliveira_Icon.png" type="image/png" />
+
+    <!--Endereço do CSS-->
+    <!--EStilo Padronizado-->
+    <link rel="stylesheet" href="Estilos/Estilo_Padrao.css" />
+    <!--Estilo Unico-->
+    <link rel="stylesheet" href="Estilos/Estilo_Alberto_Oliveira.css" />
+    <!--Estilo Barra de Pesquisa-->
+    <link rel="stylesheet" href="Estilos/Estilo_Barra_Pesquisa.css" />
+    <!--Estilo Poemas Ocultos-->
+    <link rel="stylesheet" href="Estilos/Estilo_Poema_Oculto.css" />
+
+    <!--Meta Dados-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Inicio do Site" />
+  </head>
+  <body>
+    <!--Parte superior do site, onde vai ter a logo com o nome do site, e tambem onde vai haver os links para outras paginas do site-->
+    <nav class="Menu">
+      <!--Imagem e o Texto(Olavo Bilac)-->
+      <div class="Logo_do_Site">
+        <img src="Imagens/Alberto_Oliveira/Logo_Site.png">
+      </div>
+
+      <div class="Pesquisa_Poemas_Site">
+        <input type="text" id="Input_Pesquisa_Poemas" placeholder="Pesquisar poemas" />
+        <ul id="Resultados_Pesquisa_Site"></ul>
+      </div>
+
+      <!--A parte de login do site-->
+      <div class="Login">
+        <div class="Campo_Usuario">
+          <label for="Nome_Usuario_Entrar">Usuario:</label>
+          <input type="Text" id="Nome_Usuario_Entrar" />
+        </div>
+        <div class="Campo_Senha">
+          <label for="Senha_Usuario_Entrar">Senha:</label>
+          <input type="password" id="Senha_Usuario_Entrar" />
+        </div>
+        <div class="Enviar_User">
+          <button>Enviar Usuario</button>
+        </div>
+      </div>
+
+      <!--O comando que arruma o layout-->
+      <p class="Arrumar_Borda"></p>
+
+      <!--Local com os links para as outras paginas-->
+      <div class="Abas_Site">
+        <a href="Olavo_Bilac_Poemas.html">Olavo Bilac</a>
+        <span>|</span>
+        <div class="Nome_Poeta_Pagina"><h1>Alberto Oliveira</h1></div>
+        <a href="Home.html">Home</a>
+        <span>|</span>
+        <a href="Raimundo_Correa_Poemas.html">Raimundo Corrêa</a>
+      </div>
+    </nav>
+
+    <div class="Poemas">
+      <!--Poemas Funcional-->
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema1" onclick="Inverter_Visao_Poema_Oculto1()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema1.png" /><br />
+          <p>A Alma Dos Vinte Anos</p>
+        </button>
+        <div class="Poemas_Oculto1">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema1.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema1.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema1()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema2" onclick="Inverter_Visao_Poema_Oculto2()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema2.png" /><br />
+          <p>A Cancela Da Estrada</p>
+        </button>
+        <div class="Poemas_Oculto2">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema2.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema2.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema2()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema3" onclick="Inverter_Visao_Poema_Oculto3()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema3.png" /><br />
+          <p>A Casa Da Rua Abílio</p>
+        </button>
+        <div class="Poemas_Oculto3">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema3.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema3.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema3()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema4" onclick="Inverter_Visao_Poema_Oculto4()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema4.png" /><br />
+          <p>A Janela De Julieta</p>
+        </button>
+        <div class="Poemas_Oculto4">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema4.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema4.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema4()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema5" onclick="Inverter_Visao_Poema_Oculto5()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema5.png" /><br />
+          <p>A Janela E O Sol</p>
+        </button>
+        <div class="Poemas_Oculto5">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema5.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema5.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema5()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema6" onclick="Inverter_Visao_Poema_Oculto6()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema6.png" /><br />
+          <p>A Minha Mãe</p>
+        </button>
+        <div class="Poemas_Oculto6">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema6.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema6.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema6()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema7" onclick="Inverter_Visao_Poema_Oculto7()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema7.png" /><br />
+          <p>A Um Poeta</p>
+        </button>
+        <div class="Poemas_Oculto7">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema7.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema7.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema7()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema8" onclick="Inverter_Visao_Poema_Oculto8()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema8.png" /><br />
+          <p>A Vingança Da Porta</p>
+        </button>
+        <div class="Poemas_Oculto8">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema8.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema8.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema8()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema9" onclick="Inverter_Visao_Poema_Oculto9()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema9.png" /><br />
+          <p>Acordando</p>
+        </button>
+        <div class="Poemas_Oculto9">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema9.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema9.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema9()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema10" onclick="Inverter_Visao_Poema_Oculto10()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema10.png" /><br />
+          <p>Afrodite I</p>
+        </button>
+        <div class="Poemas_Oculto10">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema10.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema10.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema10()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema11" onclick="Inverter_Visao_Poema_Oculto11()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema11.png" /><br />
+          <p>Afrodite II</p>
+        </button>
+        <div class="Poemas_Oculto11">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema11.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema11.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema11()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema12" onclick="Inverter_Visao_Poema_Oculto12()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema12.png" /><br />
+          <p>Aparição</p>
+        </button>
+        <div class="Poemas_Oculto12">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema12.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema12.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema12()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema13" onclick="Inverter_Visao_Poema_Oculto13()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema13.png" /><br />
+          <p>Aspiração</p>
+        </button>
+        <div class="Poemas_Oculto13">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema13.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema13.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema13()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema14" onclick="Inverter_Visao_Poema_Oculto14()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema14.png" /><br />
+          <p>Beija-flores</p>
+        </button>
+        <div class="Poemas_Oculto14">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema14.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema14.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema14()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema15" onclick="Inverter_Visao_Poema_Oculto15()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema15.png" /><br />
+          <p>Céu Fluminense</p>
+        </button>
+        <div class="Poemas_Oculto15">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema15.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema15.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema15()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema16" onclick="Inverter_Visao_Poema_Oculto16()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema16.png" /><br />
+          <p>Cheiro De Espádua</p>
+        </button>
+        <div class="Poemas_Oculto16">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema16.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema16.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema16()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema17" onclick="Inverter_Visao_Poema_Oculto17()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema17.png" /><br />
+          <p>Choro De Vagas</p>
+        </button>
+        <div class="Poemas_Oculto17">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema17.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema17.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema17()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema18" onclick="Inverter_Visao_Poema_Oculto18()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema18.png" /><br />
+          <p>Confissão Dos Olhos</p>
+        </button>
+        <div class="Poemas_Oculto18">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema18.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema18.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema18()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema19" onclick="Inverter_Visao_Poema_Oculto19()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema19.png" /><br />
+          <p>Contraste</p>
+        </button>
+        <div class="Poemas_Oculto19">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema19.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema19.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema19()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema20" onclick="Inverter_Visao_Poema_Oculto20()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema20.png" /><br />
+          <p>Crescente De Agosto</p>
+        </button>
+        <div class="Poemas_Oculto20">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema20.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema20.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema20()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema21" onclick="Inverter_Visao_Poema_Oculto21()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema21.png" /><br />
+          <p>De Alma Em Flor</p>
+        </button>
+        <div class="Poemas_Oculto21">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema21.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema21.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema21()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema22" onclick="Inverter_Visao_Poema_Oculto22()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema22.png" /><br />
+          <p>Dolora</p>
+        </button>
+        <div class="Poemas_Oculto22">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema22.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema22.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema22()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema23" onclick="Inverter_Visao_Poema_Oculto23()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema23.png" /><br />
+          <p>Em Caminho</p>
+        </button>
+        <div class="Poemas_Oculto23">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema23.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema23.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema23()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema24" onclick="Inverter_Visao_Poema_Oculto24()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema24.png" /><br />
+          <p>Fantástica</p>
+        </button>
+        <div class="Poemas_Oculto24">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema24.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema24.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema24()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema25" onclick="Inverter_Visao_Poema_Oculto25()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema25.png" /><br />
+          <p>Flor De Caverna</p>
+        </button>
+        <div class="Poemas_Oculto25">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema25.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema25.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema25()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema26" onclick="Inverter_Visao_Poema_Oculto26()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema26.png" /><br />
+          <p>Floresta Convulsa</p>
+        </button>
+        <div class="Poemas_Oculto26">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema26.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema26.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema26()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema27" onclick="Inverter_Visao_Poema_Oculto27()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema27.png" /><br />
+          <p>Fonte Oculta</p>
+        </button>
+        <div class="Poemas_Oculto27">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema27.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema27.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema27()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema28" onclick="Inverter_Visao_Poema_Oculto28()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema28.png" /><br />
+          <p>Horas Mortas</p>
+        </button>
+        <div class="Poemas_Oculto28">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema28.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema28.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema28()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema29" onclick="Inverter_Visao_Poema_Oculto29()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema29.png" /><br />
+          <p>Lira Quebrada</p>
+        </button>
+        <div class="Poemas_Oculto29">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema29.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema29.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema29()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema30" onclick="Inverter_Visao_Poema_Oculto30()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema30.png" /><br />
+          <p>Luva Abandonada</p>
+        </button>
+        <div class="Poemas_Oculto30">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema30.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema30.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema30()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema31" onclick="Inverter_Visao_Poema_Oculto31()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema31.png" /><br />
+          <p>Nova Carta</p>
+        </button>
+        <div class="Poemas_Oculto31">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema31.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema31.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema31()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema32" onclick="Inverter_Visao_Poema_Oculto32()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema32.png" /><br />
+          <p>O Caminho Do Morro</p>
+        </button>
+        <div class="Poemas_Oculto32">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema32.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema32.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema32()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema33" onclick="Inverter_Visao_Poema_Oculto33()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema33.png" /><br />
+          <p>O Ídolo</p>
+        </button>
+        <div class="Poemas_Oculto33">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema33.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema33.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema33()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema34" onclick="Inverter_Visao_Poema_Oculto34()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema34.png" /><br />
+          <p>O Ninho</p>
+        </button>
+        <div class="Poemas_Oculto34">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema34.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema34.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema34()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema35" onclick="Inverter_Visao_Poema_Oculto35()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema35.png" /><br />
+          <p>O Pior Dos Males</p>
+        </button>
+        <div class="Poemas_Oculto35">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema35.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema35.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema35()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema36" onclick="Inverter_Visao_Poema_Oculto36()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema36.png" /><br />
+          <p>Reflexos nos Olhos Azuis</p>
+        </button>
+        <div class="Poemas_Oculto36">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema36.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema36.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema36()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema37" onclick="Inverter_Visao_Poema_Oculto37()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema37.png" /><br />
+          <p>Os Amores Da Estrela</p>
+        </button>
+        <div class="Poemas_Oculto37">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema37.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema37.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema37()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema38" onclick="Inverter_Visao_Poema_Oculto38()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema38.png" /><br />
+          <p>Que Ânsia De Amar</p>
+        </button>
+        <div class="Poemas_Oculto38">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema38.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema38.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema38()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema39" onclick="Inverter_Visao_Poema_Oculto39()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema39.png" /><br />
+          <p>Sabor Das Lágrimas</p>
+        </button>
+        <div class="Poemas_Oculto39">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema39.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema39.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema39()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema40" onclick="Inverter_Visao_Poema_Oculto40()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema40.png" /><br />
+          <p>Sob Um Salgueiro</p>
+        </button>
+        <div class="Poemas_Oculto40">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema40.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema40.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema40()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema41" onclick="Inverter_Visao_Poema_Oculto41()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema41.png" /><br />
+          <p>Solidão Estrelada</p>
+        </button>
+        <div class="Poemas_Oculto41">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema41.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema41.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema41()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema42" onclick="Inverter_Visao_Poema_Oculto42()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema42.png" /><br />
+          <p>Soneto</p>
+        </button>
+        <div class="Poemas_Oculto42">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema42.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema42.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema42()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema43" onclick="Inverter_Visao_Poema_Oculto43()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema43.png" /><br />
+          <p>Taça De Coral</p>
+        </button>
+        <div class="Poemas_Oculto43">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema43.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema43.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema43()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema44" onclick="Inverter_Visao_Poema_Oculto44()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema44.png" /><br />
+          <p>Terceiro Canto</p>
+        </button>
+        <div class="Poemas_Oculto44">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema44.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema44.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema44()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema45" onclick="Inverter_Visao_Poema_Oculto45()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema45.png" /><br />
+          <p>Última Deusa</p>
+        </button>
+        <div class="Poemas_Oculto45">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema45.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema45.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema45()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema46" onclick="Inverter_Visao_Poema_Oculto46()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema46.png" /><br />
+          <p>Vaso Chinês</p>
+        </button>
+        <div class="Poemas_Oculto46">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema46.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema46.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema46()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema47" onclick="Inverter_Visao_Poema_Oculto47()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema47.png" /><br />
+          <p>Vaso Grego</p>
+        </button>
+        <div class="Poemas_Oculto47">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema47.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema47.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema47()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema48" onclick="Inverter_Visao_Poema_Oculto48()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema48.png" /><br />
+          <p>Velha Fazenda - III</p>
+        </button>
+        <div class="Poemas_Oculto48">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema48.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema48.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema48()">Ouvir Poema</button>
+        </div>
+      </div>
+
+      <div class="Poema_Items">
+        <button class="Amostra" id="Poema49" onclick="Inverter_Visao_Poema_Oculto49()">
+          <img src="Imagens/Alberto_Oliveira/Capas_Poema/Poema49.png" /><br />
+          <p>Vestígios Divinos</p>
+        </button>
+        <div class="Poemas_Oculto49">
+          <button class="Ler_Online"><a href="Paginas_Poemas/Alberto_Oliveira/Poema49.html">Ler Online</a></button>
+          <button class="Fazer_Download"><a href="Poemas/Alberto_Oliveira/Poema49.docx" dowload>Fazer download</a></button>
+          <button class="Ouvir_Poema" onclick="Ouvir_Poema49()">Ouvir Poema</button>
+        </div>
+      </div>
+
+    <!--Script Padrão-->
+    <script src="Programas/Programa_Padrao.js"></script>
+    <!--Script do Alberto Oliveira-->
+    <script src="Programas/Programa_Alberto_Oliveira.js"></script>
+    <!--Script Barra de Pesquisa-->
+    <script src="Programas/Programa_Barra_Pesquisa.js"></script>
+    <p class="Aumento_Limite_Pagina"></p>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+/*Modelo Padrão*/
+html {
+  box-sizing: border-box;
+}
+
+/*Modifica todos os links na pagina*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Altera a cor ou outras coisas quando o mouse está em cima de um link*/
+.Menu a:hover {
+  color: red;
+}
+
+/*Serve para deixar a imagem com o texto alinhado*/
+.Logo_do_Site {
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+/*Não deixa que o texto fique grudado com a imagem*/
+.Logo_do_Site h1 {
+  margin: 0 0 0 5px;
+}
+
+/*Faz com que a parte de login fique a direita, e uma div abaixo da outra, para que não ocupe muito espaço*/
+.Login {
+  flex-direction: column; /*Faz com que o eixo seja de cima para baixo(Ao inves de ser da esquerda para a direita)*/
+  justify-content: flex-end; /*Faz o mesmo trabalho que o float, só adicionei por segurança*/
+  display: flex;
+  align-items: flex-end; /*Faz com que seja adicionado em relação ao lado direiro*/
+  float: right; /*Manda o conteiner para a direita*/
+  margin: 20px 0 0 0;
+  padding: 20px;
+}
+
+/*Faz com que a parte onde escolhe o tema fique para a esquerda*/
+.Login .Enviar_User .Tema {
+  float: left;
+  margin: 0 2px 0 0;
+}
+
+/*Modifica o tamanho da imagem*/
+.Logo_do_Site img {
+  width: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*Modelo Padrão*/
+body {
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Adiciona uma cor para o botão*/
+Button {
+  background-color: rgb(202, 197, 226);
+}
+
+/*Faz com que os links fiquem no centro*/
+.Abas_Site {
+  text-align: center;
+}
+
+/*Controla o Layout das capas de poema em geral*/
+.Poemas {
+  display: flex;
+  flex-wrap: wrap; /*Faz com que quando não tiver mais espaço para nenhum dos lados, seja enviado para baixo*/
+  justify-content: center; /*Deixa todas as capas no meio do site*/
+}
+
+/*Faz com que cada poema tenha espaço entre o outro e que todos tenham o testo alinhado*/
+.Poemas a {
+  margin: 5px;
+  text-align: center;
+}
+
+/*Faz com que as imagens deem uma margem do topo*/
+.Poemas img {
+  margin-top: 8px;
+}
+
+/*Retira a margem padrão que as tags P tem*/
+.Poemas p {
+  margin: 0px;
+}
+
+/*Dá o tamanho padrão que não altera a proporção e não distorce a imagem das capas de poema*/
+.Poemas img {
+  width: 157.248px;
+  height: 279.552px;
+}
+
+/*Padroniza o tamanho de todos os botões ocultos*/
+.Ler_Online {
+  width: 58.98px;
+  height: 37.2px;
+}
+.Fazer_Download {
+  width: 79.53px;
+  height: 37.2px;
+}
+.Ouvir_Poema {
+  width: 62.91px;
+  height: 37.2px;
+}
+
+/*Faz com que a parte oculta fique no final*/
+.Poema_Items {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: 0 10px 10px 0;
+}
+
+/*Faz com que fique circulado de azul quando estiver com foco*/
+.Poema_Items:hover {
+  border: 2px blue solid;
+}
+
+.Poema_Items .Amostra {
+  width: 177.1312px;
+}
+
+/*Arruma a borda, pois o comando float, faz com que fique uma bagunça*/
+.Arrumar_Borda {
+  clear: both;
+}
+
+/*Faz com que o nome do poeta não seja afetado*/
+.Nome_Poeta_Pagina {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  text-decoration: underline;
+  height: 0px;
+}
+
+/*Faz um pequeno ajuste na parte do menu do site*/
+.Menu {
+  position: sticky;
+}
+
+.Aumento_Limite_Pagina {
+  padding: 0 0 30px 0;
+  display: block;
+  width: 10000px;
+}

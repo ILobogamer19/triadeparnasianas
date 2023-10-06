@@ -1,0 +1,9 @@
+/*Altera a cor de fundo do site*/
+body {
+  background-image: linear-gradient(
+    90deg,
+    #e3d624 25%,
+    #5fd143 50%,
+    #d64d0d 75%
+  );
+}

@@ -1,0 +1,12 @@
+/*Altera a cor de fundo do site*/
+body {
+  background-image: linear-gradient(
+    90deg,
+    #96c66a 10%,
+    #db9e88 60%,
+    #739dd4 80%
+  );
+}
+.Logo_do_Site img {
+  width: 439px;
+}

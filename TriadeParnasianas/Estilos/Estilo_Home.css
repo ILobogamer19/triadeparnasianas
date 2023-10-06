@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+/*Modelo Padrão*/
+html {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-image: url("../Imagens/Home/Fundo_Site.png");
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.Biografias {
+  display: flex;
+  justify-content: center;
+}
+.Biografias div {
+  border: 1px solid black;
+  margin: 0 15px 0 0;
+  text-align: center;
+  width: 300px;
+}
+.Imagem_Biografia_Olavo_Bilac {
+  width: 67.5%;
+}
+.Imagem_Biografia_Raimundo_Correa {
+  width: 63.3%;
+}
+.Alberto_Oliveira_Biografia button {
+  background-image: linear-gradient(
+    90deg,
+    #e3d624 25%,
+    #5fd143 50%,
+    #d64d0d 75%
+  );
+}
+.Raimundo_Correa_Biografia button {
+  background-image: linear-gradient(
+    90deg,
+    #434b4d 25%,
+    #62514d 50%,
+    #81575d 75%,
+    #985e3b 100%
+  );
+}
+.Olavo_Bilac_Biografia button {
+  background-image: linear-gradient(
+    90deg,
+    #96c66a 10%,
+    #db9e88 60%,
+    #739dd4 80%
+  );
+}
+h2,
+h1 {
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+}
+h1 {
+  font-size: 40px;
+}
+details {
+  font-family: Garamond;
+  font-size: 15px;
+}
+.Triade_Parsaniana {
+  border: 1px solid black;
+  width: 1200px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: white;
+}
+.Biografia_Margin {
+  margin: 0 0 10px 0;
+}

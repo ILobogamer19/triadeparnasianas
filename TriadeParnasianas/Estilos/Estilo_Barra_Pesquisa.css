@@ -1,0 +1,40 @@
+/* Estilize a barra de pesquisa e os resultados como desejado */
+.Pesquisa_Poemas_Site {
+  position: absolute;
+  right: 265px;
+  top: 25px;
+  margin: 20px;
+}
+
+#Input_Pesquisa_Poemas {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+ul#Resultados_Pesquisa_Site {
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  list-style: none;
+  padding: 5px;
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  background-color: white;
+}
+ul#Resultados_Pesquisa_Site li {
+  padding: 2px;
+}
+ul#Resultados_Pesquisa_Site li a:hover {
+  color: darkblue;
+  font-weight: bold;
+}
+#Resultados_Pesquisa_Site {
+  display: none;
+  z-index: 100;
+}
+#Input_Pesquisa_Poemas:focus + #Resultados_Pesquisa_Site,
+#Resultados_Pesquisa_Site:hover {
+  display: Block;
+}
