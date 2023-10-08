@@ -153,3 +153,98 @@ Button {
   display: block;
   width: 10000px;
 }
+
+/*Tela de 1110px*/
+@media (max-width: 1110px) {
+  body {
+    transform: scale(0.9);
+    transform-origin: top left;
+    width: 105vw;
+    background-size: 100%;
+  }
+}
+
+/*Tela de LapTop Comum*/
+@media (max-width: 1050px) {
+  body {
+    transform: scale(0.7);
+    transform-origin: top left;
+    width: 145vw;
+    background-size: 100%;
+  }
+}
+
+/*Tela de Table Comum*/
+@media (max-width: 800px) {
+  body {
+    transform: scale(0.6);
+    transform-origin: top left;
+    width: 170vw;
+    background-size: 110%;
+  }
+}
+
+/*Tela de 620px*/
+@media (max-width: 620px) {
+  body {
+    transform: scale(0.5);
+    transform-origin: top left;
+    width: 200vw;
+    background-size: 100%;
+  }
+}
+
+/*Tela de 530px*/
+@media (max-width: 530px) {
+  body {
+    transform: scale(0.45);
+    transform-origin: top left;
+    width: 230vw;
+    background-size: 110%;
+  }
+}
+
+/*Tela de 460px*/
+@media (max-width: 460px) {
+  body {
+    transform: scale(0.43);
+    transform-origin: top left;
+    width: 250vw;
+    background-size: 110%;
+  }
+}
+
+/*Tela de Celular Comum Grande*/
+@media (max-width: 430px) {
+  body {
+    transform: scale(0.4);
+    transform-origin: top left;
+    width: 160vh;
+    background-size: 120%;
+  }
+}
+
+/*Tela de Celular Comum Medio*/
+@media (max-width: 380px) {
+  body {
+    transform: scale(0.3);
+    transform-origin: top left;
+    width: 178vh;
+    background-size: 110%;
+  }
+}
+
+/*Tela de Celular Comum Pequeno*/
+@media (max-width: 330px) {
+  body {
+    transform: scale(0.31);
+    transform-origin: top left;
+    width: 156vh;
+    background-size: 130%;
+  }
+}
+
+/*Excluir a parte de login*/
+.Login {
+  visibility: hidden;
+}

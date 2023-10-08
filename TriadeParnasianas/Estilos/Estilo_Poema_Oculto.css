@@ -662,9 +662,6 @@
 }
 
 /*Desoculta quando uma dessas condições são atendidas: Botão do poema está com foco, o conteiner Poemas_Ocultos está com foco, etc...*/
-.Poemas button:hover + .Poemas_Oculto1,
-.Poemas_Oculto1:hover,
-.Poema_Items:hover + .Poemas_Oculto1,
 .Poemas_Oculto1:focus {
   display: flex;
   position: absolute;
@@ -672,9 +669,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto2,
-.Poemas_Oculto2:hover,
-.Poema_Items:hover + .Poemas_Oculto2,
 .Poemas_Oculto2:focus {
   display: flex;
   position: absolute;
@@ -682,9 +676,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto3,
-.Poemas_Oculto3:hover,
-.Poema_Items:hover + .Poemas_Oculto3,
 .Poemas_Oculto3:focus {
   display: flex;
   position: absolute;
@@ -692,9 +683,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto4,
-.Poemas_Oculto4:hover,
-.Poema_Items:hover + .Poemas_Oculto4,
 .Poemas_Oculto4:focus {
   display: flex;
   position: absolute;
@@ -702,9 +690,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto5,
-.Poemas_Oculto5:hover,
-.Poema_Items:hover + .Poemas_Oculto5,
 .Poemas_Oculto5:focus {
   display: flex;
   position: absolute;
@@ -712,9 +697,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto6,
-.Poemas_Oculto6:hover,
-.Poema_Items:hover + .Poemas_Oculto6,
 .Poemas_Oculto6:focus {
   display: flex;
   position: absolute;
@@ -722,9 +704,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto7,
-.Poemas_Oculto7:hover,
-.Poema_Items:hover + .Poemas_Oculto7,
 .Poemas_Oculto7:focus {
   display: flex;
   position: absolute;
@@ -732,9 +711,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto8,
-.Poemas_Oculto8:hover,
-.Poema_Items:hover + .Poemas_Oculto8,
 .Poemas_Oculto8:focus {
   display: flex;
   position: absolute;
@@ -742,9 +718,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto9,
-.Poemas_Oculto9:hover,
-.Poema_Items:hover + .Poemas_Oculto9,
 .Poemas_Oculto9:focus {
   display: flex;
   position: absolute;
@@ -752,9 +725,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto10,
-.Poemas_Oculto10:hover,
-.Poema_Items:hover + .Poemas_Oculto10,
 .Poemas_Oculto10:focus {
   display: flex;
   position: absolute;
@@ -762,9 +732,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto11,
-.Poemas_Oculto11:hover,
-.Poema_Items:hover + .Poemas_Oculto11,
 .Poemas_Oculto11:focus {
   display: flex;
   position: absolute;
@@ -772,9 +739,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto12,
-.Poemas_Oculto12:hover,
-.Poema_Items:hover + .Poemas_Oculto12,
 .Poemas_Oculto12:focus {
   display: flex;
   position: absolute;
@@ -782,9 +746,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto13,
-.Poemas_Oculto13:hover,
-.Poema_Items:hover + .Poemas_Oculto13,
 .Poemas_Oculto13:focus {
   display: flex;
   position: absolute;
@@ -792,9 +753,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto14,
-.Poemas_Oculto14:hover,
-.Poema_Items:hover + .Poemas_Oculto14,
 .Poemas_Oculto14:focus {
   display: flex;
   position: absolute;
@@ -802,9 +760,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto15,
-.Poemas_Oculto15:hover,
-.Poema_Items:hover + .Poemas_Oculto15,
 .Poemas_Oculto15:focus {
   display: flex;
   position: absolute;
@@ -812,9 +767,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto16,
-.Poemas_Oculto16:hover,
-.Poema_Items:hover + .Poemas_Oculto16,
 .Poemas_Oculto16:focus {
   display: flex;
   position: absolute;
@@ -822,9 +774,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto17,
-.Poemas_Oculto17:hover,
-.Poema_Items:hover + .Poemas_Oculto17,
 .Poemas_Oculto17:focus {
   display: flex;
   position: absolute;
@@ -832,9 +781,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto18,
-.Poemas_Oculto18:hover,
-.Poema_Items:hover + .Poemas_Oculto18,
 .Poemas_Oculto18:focus {
   display: flex;
   position: absolute;
@@ -842,9 +788,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto19,
-.Poemas_Oculto19:hover,
-.Poema_Items:hover + .Poemas_Oculto19,
 .Poemas_Oculto19:focus {
   display: flex;
   position: absolute;
@@ -852,9 +795,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto20,
-.Poemas_Oculto20:hover,
-.Poema_Items:hover + .Poemas_Oculto20,
 .Poemas_Oculto20:focus {
   display: flex;
   position: absolute;
@@ -862,9 +802,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto21,
-.Poemas_Oculto21:hover,
-.Poema_Items:hover + .Poemas_Oculto21,
 .Poemas_Oculto21:focus {
   display: flex;
   position: absolute;
@@ -872,9 +809,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto22,
-.Poemas_Oculto22:hover,
-.Poema_Items:hover + .Poemas_Oculto22,
 .Poemas_Oculto22:focus {
   display: flex;
   position: absolute;
@@ -882,9 +816,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto23,
-.Poemas_Oculto23:hover,
-.Poema_Items:hover + .Poemas_Oculto23,
 .Poemas_Oculto23:focus {
   display: flex;
   position: absolute;
@@ -892,9 +823,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto24,
-.Poemas_Oculto24:hover,
-.Poema_Items:hover + .Poemas_Oculto24,
 .Poemas_Oculto24:focus {
   display: flex;
   position: absolute;
@@ -902,9 +830,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto25,
-.Poemas_Oculto25:hover,
-.Poema_Items:hover + .Poemas_Oculto25,
 .Poemas_Oculto25:focus {
   display: flex;
   position: absolute;
@@ -912,9 +837,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto26,
-.Poemas_Oculto26:hover,
-.Poema_Items:hover + .Poemas_Oculto26,
 .Poemas_Oculto26:focus {
   display: flex;
   position: absolute;
@@ -922,9 +844,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto27,
-.Poemas_Oculto27:hover,
-.Poema_Items:hover + .Poemas_Oculto27,
 .Poemas_Oculto27:focus {
   display: flex;
   position: absolute;
@@ -932,9 +851,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto28,
-.Poemas_Oculto28:hover,
-.Poema_Items:hover + .Poemas_Oculto28,
 .Poemas_Oculto28:focus {
   display: flex;
   position: absolute;
@@ -942,9 +858,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto29,
-.Poemas_Oculto29:hover,
-.Poema_Items:hover + .Poemas_Oculto29,
 .Poemas_Oculto29:focus {
   display: flex;
   position: absolute;
@@ -952,9 +865,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto30,
-.Poemas_Oculto30:hover,
-.Poema_Items:hover + .Poemas_Oculto30,
 .Poemas_Oculto30:focus {
   display: flex;
   position: absolute;
@@ -962,9 +872,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto31,
-.Poemas_Oculto31:hover,
-.Poema_Items:hover + .Poemas_Oculto31,
 .Poemas_Oculto31:focus {
   display: flex;
   position: absolute;
@@ -972,9 +879,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto32,
-.Poemas_Oculto32:hover,
-.Poema_Items:hover + .Poemas_Oculto32,
 .Poemas_Oculto32:focus {
   display: flex;
   position: absolute;
@@ -982,9 +886,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto33,
-.Poemas_Oculto33:hover,
-.Poema_Items:hover + .Poemas_Oculto33,
 .Poemas_Oculto33:focus {
   display: flex;
   position: absolute;
@@ -992,9 +893,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto34,
-.Poemas_Oculto34:hover,
-.Poema_Items:hover + .Poemas_Oculto34,
 .Poemas_Oculto34:focus {
   display: flex;
   position: absolute;
@@ -1002,9 +900,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto35,
-.Poemas_Oculto35:hover,
-.Poema_Items:hover + .Poemas_Oculto35,
 .Poemas_Oculto35:focus {
   display: flex;
   position: absolute;
@@ -1012,9 +907,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto36,
-.Poemas_Oculto36:hover,
-.Poema_Items:hover + .Poemas_Oculto36,
 .Poemas_Oculto36:focus {
   display: flex;
   position: absolute;
@@ -1022,9 +914,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto37,
-.Poemas_Oculto37:hover,
-.Poema_Items:hover + .Poemas_Oculto37,
 .Poemas_Oculto37:focus {
   display: flex;
   position: absolute;
@@ -1032,9 +921,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto38,
-.Poemas_Oculto38:hover,
-.Poema_Items:hover + .Poemas_Oculto38,
 .Poemas_Oculto38:focus {
   display: flex;
   position: absolute;
@@ -1042,9 +928,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto39,
-.Poemas_Oculto39:hover,
-.Poema_Items:hover + .Poemas_Oculto39,
 .Poemas_Oculto39:focus {
   display: flex;
   position: absolute;
@@ -1052,9 +935,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto40,
-.Poemas_Oculto40:hover,
-.Poema_Items:hover + .Poemas_Oculto40,
 .Poemas_Oculto40:focus {
   display: flex;
   position: absolute;
@@ -1062,9 +942,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto41,
-.Poemas_Oculto41:hover,
-.Poema_Items:hover + .Poemas_Oculto41,
 .Poemas_Oculto41:focus {
   display: flex;
   position: absolute;
@@ -1072,9 +949,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto42,
-.Poemas_Oculto42:hover,
-.Poema_Items:hover + .Poemas_Oculto42,
 .Poemas_Oculto42:focus {
   display: flex;
   position: absolute;
@@ -1082,9 +956,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto43,
-.Poemas_Oculto43:hover,
-.Poema_Items:hover + .Poemas_Oculto43,
 .Poemas_Oculto43:focus {
   display: flex;
   position: absolute;
@@ -1092,9 +963,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto44,
-.Poemas_Oculto44:hover,
-.Poema_Items:hover + .Poemas_Oculto44,
 .Poemas_Oculto44:focus {
   display: flex;
   position: absolute;
@@ -1102,9 +970,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto45,
-.Poemas_Oculto45:hover,
-.Poema_Items:hover + .Poemas_Oculto45,
 .Poemas_Oculto45:focus {
   display: flex;
   position: absolute;
@@ -1112,9 +977,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto46,
-.Poemas_Oculto46:hover,
-.Poema_Items:hover + .Poemas_Oculto46,
 .Poemas_Oculto46:focus {
   display: flex;
   position: absolute;
@@ -1122,9 +984,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto47,
-.Poemas_Oculto47:hover,
-.Poema_Items:hover + .Poemas_Oculto47,
 .Poemas_Oculto47:focus {
   display: flex;
   position: absolute;
@@ -1132,9 +991,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto48,
-.Poemas_Oculto48:hover,
-.Poema_Items:hover + .Poemas_Oculto48,
 .Poemas_Oculto48:focus {
   display: flex;
   position: absolute;
@@ -1142,9 +998,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto49,
-.Poemas_Oculto49:hover,
-.Poema_Items:hover + .Poemas_Oculto49,
 .Poemas_Oculto49:focus {
   display: flex;
   position: absolute;
@@ -1152,9 +1005,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto50,
-.Poemas_Oculto50:hover,
-.Poema_Items:hover + .Poemas_Oculto50,
 .Poemas_Oculto50:focus {
   display: flex;
   position: absolute;
@@ -1162,9 +1012,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto51,
-.Poemas_Oculto51:hover,
-.Poema_Items:hover + .Poemas_Oculto51,
 .Poemas_Oculto51:focus {
   display: flex;
   position: absolute;
@@ -1172,9 +1019,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto52,
-.Poemas_Oculto52:hover,
-.Poema_Items:hover + .Poemas_Oculto52,
 .Poemas_Oculto52:focus {
   display: flex;
   position: absolute;
@@ -1182,9 +1026,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto53,
-.Poemas_Oculto53:hover,
-.Poema_Items:hover + .Poemas_Oculto53,
 .Poemas_Oculto53:focus {
   display: flex;
   position: absolute;
@@ -1192,9 +1033,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto54,
-.Poemas_Oculto54:hover,
-.Poema_Items:hover + .Poemas_Oculto54,
 .Poemas_Oculto54:focus {
   display: flex;
   position: absolute;
@@ -1202,9 +1040,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto55,
-.Poemas_Oculto55:hover,
-.Poema_Items:hover + .Poemas_Oculto55,
 .Poemas_Oculto55:focus {
   display: flex;
   position: absolute;
@@ -1212,9 +1047,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto56,
-.Poemas_Oculto56:hover,
-.Poema_Items:hover + .Poemas_Oculto56,
 .Poemas_Oculto56:focus {
   display: flex;
   position: absolute;
@@ -1222,9 +1054,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto57,
-.Poemas_Oculto57:hover,
-.Poema_Items:hover + .Poemas_Oculto57,
 .Poemas_Oculto57:focus {
   display: flex;
   position: absolute;
@@ -1232,9 +1061,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto58,
-.Poemas_Oculto58:hover,
-.Poema_Items:hover + .Poemas_Oculto58,
 .Poemas_Oculto58:focus {
   display: flex;
   position: absolute;
@@ -1242,9 +1068,6 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto59,
-.Poemas_Oculto59:hover,
-.Poema_Items:hover + .Poemas_Oculto59,
 .Poemas_Oculto59:focus {
   display: flex;
   position: absolute;
@@ -1252,13 +1075,612 @@
   transform: translate(7px, 38px);
   z-index: 10;
 }
-.Poemas button:hover + .Poemas_Oculto60,
-.Poemas_Oculto60:hover,
-.Poema_Items:hover + .Poemas_Oculto60,
 .Poemas_Oculto60:focus {
   display: flex;
   position: absolute;
   border: 1px blue solid;
   transform: translate(7px, 38px);
   z-index: 10;
+}
+@media (hover: hover) {
+  .Poemas button:hover + .Poemas_Oculto1,
+  .Poemas_Oculto1:hover,
+  .Poema_Items:hover + .Poemas_Oculto1,
+  .Poemas_Oculto1:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto2,
+  .Poemas_Oculto2:hover,
+  .Poema_Items:hover + .Poemas_Oculto2,
+  .Poemas_Oculto2:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto3,
+  .Poemas_Oculto3:hover,
+  .Poema_Items:hover + .Poemas_Oculto3,
+  .Poemas_Oculto3:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto4,
+  .Poemas_Oculto4:hover,
+  .Poema_Items:hover + .Poemas_Oculto4,
+  .Poemas_Oculto4:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto5,
+  .Poemas_Oculto5:hover,
+  .Poema_Items:hover + .Poemas_Oculto5,
+  .Poemas_Oculto5:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto6,
+  .Poemas_Oculto6:hover,
+  .Poema_Items:hover + .Poemas_Oculto6,
+  .Poemas_Oculto6:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto7,
+  .Poemas_Oculto7:hover,
+  .Poema_Items:hover + .Poemas_Oculto7,
+  .Poemas_Oculto7:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto8,
+  .Poemas_Oculto8:hover,
+  .Poema_Items:hover + .Poemas_Oculto8,
+  .Poemas_Oculto8:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto9,
+  .Poemas_Oculto9:hover,
+  .Poema_Items:hover + .Poemas_Oculto9,
+  .Poemas_Oculto9:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto10,
+  .Poemas_Oculto10:hover,
+  .Poema_Items:hover + .Poemas_Oculto10,
+  .Poemas_Oculto10:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto11,
+  .Poemas_Oculto11:hover,
+  .Poema_Items:hover + .Poemas_Oculto11,
+  .Poemas_Oculto11:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto12,
+  .Poemas_Oculto12:hover,
+  .Poema_Items:hover + .Poemas_Oculto12,
+  .Poemas_Oculto12:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto13,
+  .Poemas_Oculto13:hover,
+  .Poema_Items:hover + .Poemas_Oculto13,
+  .Poemas_Oculto13:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto14,
+  .Poemas_Oculto14:hover,
+  .Poema_Items:hover + .Poemas_Oculto14,
+  .Poemas_Oculto14:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto15,
+  .Poemas_Oculto15:hover,
+  .Poema_Items:hover + .Poemas_Oculto15,
+  .Poemas_Oculto15:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto16,
+  .Poemas_Oculto16:hover,
+  .Poema_Items:hover + .Poemas_Oculto16,
+  .Poemas_Oculto16:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto17,
+  .Poemas_Oculto17:hover,
+  .Poema_Items:hover + .Poemas_Oculto17,
+  .Poemas_Oculto17:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto18,
+  .Poemas_Oculto18:hover,
+  .Poema_Items:hover + .Poemas_Oculto18,
+  .Poemas_Oculto18:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto19,
+  .Poemas_Oculto19:hover,
+  .Poema_Items:hover + .Poemas_Oculto19,
+  .Poemas_Oculto19:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto20,
+  .Poemas_Oculto20:hover,
+  .Poema_Items:hover + .Poemas_Oculto20,
+  .Poemas_Oculto20:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto21,
+  .Poemas_Oculto21:hover,
+  .Poema_Items:hover + .Poemas_Oculto21,
+  .Poemas_Oculto21:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto22,
+  .Poemas_Oculto22:hover,
+  .Poema_Items:hover + .Poemas_Oculto22,
+  .Poemas_Oculto22:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto23,
+  .Poemas_Oculto23:hover,
+  .Poema_Items:hover + .Poemas_Oculto23,
+  .Poemas_Oculto23:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto24,
+  .Poemas_Oculto24:hover,
+  .Poema_Items:hover + .Poemas_Oculto24,
+  .Poemas_Oculto24:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto25,
+  .Poemas_Oculto25:hover,
+  .Poema_Items:hover + .Poemas_Oculto25,
+  .Poemas_Oculto25:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto26,
+  .Poemas_Oculto26:hover,
+  .Poema_Items:hover + .Poemas_Oculto26,
+  .Poemas_Oculto26:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto27,
+  .Poemas_Oculto27:hover,
+  .Poema_Items:hover + .Poemas_Oculto27,
+  .Poemas_Oculto27:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto28,
+  .Poemas_Oculto28:hover,
+  .Poema_Items:hover + .Poemas_Oculto28,
+  .Poemas_Oculto28:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto29,
+  .Poemas_Oculto29:hover,
+  .Poema_Items:hover + .Poemas_Oculto29,
+  .Poemas_Oculto29:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto30,
+  .Poemas_Oculto30:hover,
+  .Poema_Items:hover + .Poemas_Oculto30,
+  .Poemas_Oculto30:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto31,
+  .Poemas_Oculto31:hover,
+  .Poema_Items:hover + .Poemas_Oculto31,
+  .Poemas_Oculto31:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto32,
+  .Poemas_Oculto32:hover,
+  .Poema_Items:hover + .Poemas_Oculto32,
+  .Poemas_Oculto32:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto33,
+  .Poemas_Oculto33:hover,
+  .Poema_Items:hover + .Poemas_Oculto33,
+  .Poemas_Oculto33:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto34,
+  .Poemas_Oculto34:hover,
+  .Poema_Items:hover + .Poemas_Oculto34,
+  .Poemas_Oculto34:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto35,
+  .Poemas_Oculto35:hover,
+  .Poema_Items:hover + .Poemas_Oculto35,
+  .Poemas_Oculto35:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto36,
+  .Poemas_Oculto36:hover,
+  .Poema_Items:hover + .Poemas_Oculto36,
+  .Poemas_Oculto36:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto37,
+  .Poemas_Oculto37:hover,
+  .Poema_Items:hover + .Poemas_Oculto37,
+  .Poemas_Oculto37:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto38,
+  .Poemas_Oculto38:hover,
+  .Poema_Items:hover + .Poemas_Oculto38,
+  .Poemas_Oculto38:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto39,
+  .Poemas_Oculto39:hover,
+  .Poema_Items:hover + .Poemas_Oculto39,
+  .Poemas_Oculto39:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto40,
+  .Poemas_Oculto40:hover,
+  .Poema_Items:hover + .Poemas_Oculto40,
+  .Poemas_Oculto40:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto41,
+  .Poemas_Oculto41:hover,
+  .Poema_Items:hover + .Poemas_Oculto41,
+  .Poemas_Oculto41:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto42,
+  .Poemas_Oculto42:hover,
+  .Poema_Items:hover + .Poemas_Oculto42,
+  .Poemas_Oculto42:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto43,
+  .Poemas_Oculto43:hover,
+  .Poema_Items:hover + .Poemas_Oculto43,
+  .Poemas_Oculto43:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto44,
+  .Poemas_Oculto44:hover,
+  .Poema_Items:hover + .Poemas_Oculto44,
+  .Poemas_Oculto44:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto45,
+  .Poemas_Oculto45:hover,
+  .Poema_Items:hover + .Poemas_Oculto45,
+  .Poemas_Oculto45:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto46,
+  .Poemas_Oculto46:hover,
+  .Poema_Items:hover + .Poemas_Oculto46,
+  .Poemas_Oculto46:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto47,
+  .Poemas_Oculto47:hover,
+  .Poema_Items:hover + .Poemas_Oculto47,
+  .Poemas_Oculto47:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto48,
+  .Poemas_Oculto48:hover,
+  .Poema_Items:hover + .Poemas_Oculto48,
+  .Poemas_Oculto48:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto49,
+  .Poemas_Oculto49:hover,
+  .Poema_Items:hover + .Poemas_Oculto49,
+  .Poemas_Oculto49:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto50,
+  .Poemas_Oculto50:hover,
+  .Poema_Items:hover + .Poemas_Oculto50,
+  .Poemas_Oculto50:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto51,
+  .Poemas_Oculto51:hover,
+  .Poema_Items:hover + .Poemas_Oculto51,
+  .Poemas_Oculto51:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto52,
+  .Poemas_Oculto52:hover,
+  .Poema_Items:hover + .Poemas_Oculto52,
+  .Poemas_Oculto52:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto53,
+  .Poemas_Oculto53:hover,
+  .Poema_Items:hover + .Poemas_Oculto53,
+  .Poemas_Oculto53:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto54,
+  .Poemas_Oculto54:hover,
+  .Poema_Items:hover + .Poemas_Oculto54,
+  .Poemas_Oculto54:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto55,
+  .Poemas_Oculto55:hover,
+  .Poema_Items:hover + .Poemas_Oculto55,
+  .Poemas_Oculto55:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto56,
+  .Poemas_Oculto56:hover,
+  .Poema_Items:hover + .Poemas_Oculto56,
+  .Poemas_Oculto56:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto57,
+  .Poemas_Oculto57:hover,
+  .Poema_Items:hover + .Poemas_Oculto57,
+  .Poemas_Oculto57:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto58,
+  .Poemas_Oculto58:hover,
+  .Poema_Items:hover + .Poemas_Oculto58,
+  .Poemas_Oculto58:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto59,
+  .Poemas_Oculto59:hover,
+  .Poema_Items:hover + .Poemas_Oculto59,
+  .Poemas_Oculto59:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
+  .Poemas button:hover + .Poemas_Oculto60,
+  .Poemas_Oculto60:hover,
+  .Poema_Items:hover + .Poemas_Oculto60,
+  .Poemas_Oculto60:focus {
+    display: flex;
+    position: absolute;
+    border: 1px blue solid;
+    transform: translate(7px, 38px);
+    z-index: 10;
+  }
 }
